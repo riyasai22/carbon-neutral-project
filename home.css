@@ -96,6 +96,25 @@ body::-webkit-scrollbar-thumb {
     align-items:center;
 }
 
+.button{
+    width:60px;
+    height:60px;
+    position: sticky;
+    top:100px;
+    left:30px;
+    border-radius:30px;
+    text-align: center;
+    padding:15px 0px;
+    font-size: 25px;
+    background-color:#2B3B47;
+    box-shadow:2px 2px 4px rgba(0, 0, 0, 0.25);
+    z-index: 50;
+}
+.button a{
+    text-decoration: none;
+    color:white;
+}
+
 .main-1{
     display: flex;
     justify-content: center;
@@ -111,6 +130,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    align-items: center;
 }
 
 .main-1-line-txt{
@@ -136,6 +156,31 @@ body::-webkit-scrollbar-thumb {
     font-size: 80px;
     color: #43a34c;
     margin: 0 auto;
+}
+.btn-main{
+    position: absolute;
+width: 180px;
+height: 45px;
+background: #1C5D12;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+border-radius: 45px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+text-align: center;
+letter-spacing: 4px;
+padding:8px 0px 0px;
+color: #FFFFFF;
+margin: 20px 300px;
+
+
+
+}
+
+.btn-main a{
+    text-decoration:none;
+    color: #FFFFFF
 }
 .heading-intro-align{
     display: flex;
@@ -368,12 +413,15 @@ body::-webkit-scrollbar-thumb {
     font-weight: 600;
     color: #408815;
 }
+.better{
+    background-color:white;
+}
 .images-grp{
     display: flex;
     justify-content: center;
     max-width: 1200px;
-    margin:40px auto;
-
+    margin:40px auto 0px;
+    padding-bottom:40px;
 }
 .images-grp img{
     margin-top: 30px;
@@ -439,6 +487,10 @@ body::-webkit-scrollbar-thumb {
     background-color: #ffffff;
     text-align: center;
 }
+.main-race{
+    background:white;
+    border:2px solid transparent;
+}
 .race{
     font-family: Poppins;
     width: 550px;
@@ -448,8 +500,6 @@ body::-webkit-scrollbar-thumb {
     font-weight: 500;
     font-size: 50px;
     color: #2B3B47;
-
-
 }
 .race span{
     font-weight: 600;
@@ -628,6 +678,12 @@ body::-webkit-scrollbar-thumb {
         background-position-x: -1440px;
     }
 } 
+.calculate a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight:600;
+}
 .contact{
     margin-top:850px ;
     width:100%;
@@ -636,6 +692,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     align-items: center;
     margin-bottom:10px;
+    background-color:white;
 }
 .contact .contact-details{
     width:50%;
