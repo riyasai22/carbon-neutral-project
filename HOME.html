@@ -11,6 +11,7 @@
     href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet"
   />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
     <title>Document</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
       <div class="nav-wrapper flex">
         <ul class="nav-elements flex">
           <li class="nav-item">
-            <a href="index.html">HOME</a>
+            <a href="HOME.html">HOME</a>
           </li>
           <li class="nav-item">
             <a href="#about">ABOUT</a>
@@ -26,14 +27,20 @@
           <!-- <li class="nav-item">
             <a href="aquaponics.html">AQUAPONICS</a>
           </li> -->
+          <li class="nav-item">
+            <a href="carbon.html">CALCULATOR</a>
+          </li>
         </ul>
         <div class="nav-logo">
-          <a href="carbon.html"><img src="image/logo.png" alt="logo" /></a>
+          <a href="HOME.html"><img src="image/logo.png" alt="logo" /></a>
         </div>
         <ul class="nav-elements flex">
           <!-- <li class="nav-item">
             <a href="products.html">PRODUCTS</a>
           </li> -->
+          <li class="nav-item">
+            <a href="#techno">TECHNOLOGY</a>
+          </li>
           <li class="nav-item">
             <a href="#sustainability">INFO</a>
           </li>
@@ -67,6 +74,11 @@
         </ul>
       </div>
     </section>
+    <div class="button">
+      <a href="DARK.html">
+        <i class="fas fa-moon"></i>
+      </a>
+    </div>
     <section class="1-seg">
         <div class="main-1">
             <div class="flexbox-main">
@@ -74,6 +86,8 @@
                     <p class="main-1-line-txt">An initiative to curb</p>
                     <p class="main-2-line-txt">THE <span>WORLD'S BIGGEST </span>THREAT</p>
                     <p class="main-3-line-txt">GLOBAL WARMING</p>
+                    <div class="btn-main"><a href="#about">KNOW MORE</a></div>
+
                 </div>                
             </div> 
         </div>
@@ -103,7 +117,7 @@
         </div>
       </div>
     </section>
-    <section class="lastpart">
+    <section class="lastpart" id="techno">
       <div class="bef-wave">
           <div class="qa-2">
             <div class="q-2-box"data-aos="fade-up">
@@ -149,6 +163,7 @@
             </p>
           </div>
         </div>
+        <div class="better" id="sustainability">
         <p class="cbt">CREATE A BETTER <span data-aos="fade"> TOMORROW</span></p>
         <div class="images-grp">
           <div class="it"data-aos="fade-up"data-aos-offset="100">
@@ -180,48 +195,39 @@
             <p class="last-txt">ACHIEVE CARBON NEUTRALITY</p>
           </div>   
         </div>
-        <div class="race"data-aos="fade-right">
-          <p data-aos=>Join Us In The Race To <span>Carbon Neutrality!</span></p>
         </div>
-        <div class="quest-5">
-          <div class="qp-5">
-            <div class="qa-5" data-aos="fade-right">
-              <p class="q5">What is carbon neutrality?</p>
-              <span
-              class="material-icons audio1"onclick="speakText(`We developed this carbon calculator to calculate carbon emmisions using many of our daily activities - such as using electricity, driving a car, or disposing of waste - cause emissions. Together these emissions make up a household's carbon footprint. The calculator estimates your footprint in three areas: home energy, transportation and waste. Everyone's carbon footprint is different depending on their location, habits, and personal choices.`)"type="button"value="submit">volume_up
-              </span>
+        <div class="main-race">
+          <div class="race"data-aos="fade-right">
+            <p data-aos=>Join Us In The Race To <span>Carbon Neutrality!</span></p>
+          </div>
+          <div class="quest-5">
+            <div class="qp-5">
+              <div class="qa-5" data-aos="fade-right">
+                <p class="q5">What is carbon neutrality?</p>
+                <span
+                class="material-icons audio1"onclick="speakText(`We developed this carbon calculator to calculate carbon emmisions using many of our daily activities - such as using electricity, driving a car, or disposing of waste - cause emissions. Together these emissions make up a household's carbon footprint. The calculator estimates your footprint in three areas: home energy, transportation and waste. Everyone's carbon footprint is different depending on their location, habits, and personal choices.`)"type="button"value="submit">volume_up
+                </span>
+              </div>
+              <p class="a5"data-aos="fade-up">We developed this carbon calculator to calculate carbon emmisions using many of our daily activities - such as using electricity, driving a car, or disposing of waste - cause emissions. Together these emissions make up a household's carbon footprint. The calculator estimates your footprint in three areas: home energy, transportation and waste. Everyone's carbon footprint is different depending on their location, habits, and personal choices.</p>
             </div>
-            <p class="a5"data-aos="fade-up">We developed this carbon calculator to calculate carbon emmisions using many of our daily activities - such as using electricity, driving a car, or disposing of waste - cause emissions. Together these emissions make up a household's carbon footprint. The calculator estimates your footprint in three areas: home energy, transportation and waste. Everyone's carbon footprint is different depending on their location, habits, and personal choices.</p>
+            <div class="windmill" data-aos="fade-left"data-aos-offset="400">
+              <img class="fan-1" src="image/big-fan.png">
+              <img class="fan-2"src="image/med-fan.png">
+              <img class="fan-3"src="image/small-fan.png">
+              <img class="base"src="image/fan-base.png">
+            </div>
           </div>
-          <div class="windmill" data-aos="fade-left"data-aos-offset="400">
-            <img class="fan-1" src="image/big-fan.png">
-            <img class="fan-2"src="image/med-fan.png">
-            <img class="fan-3"src="image/small-fan.png">
-            <img class="base"src="image/fan-base.png">
+          <div class="last-btn calculate">
+            <a href="carbon.html">CALCULATE YOUR CARBON FOOTPRINT</a>
           </div>
-        </div>
-        <div class="last-btn">
-          <p>CALCULATE YOUR CARBON FOOTPRINT</p>
         </div>
       </div>
     </section>
-    <!-- <section class="contact" id="contact">
-      <div class="contact-details">
-        <h2>Contact Us</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit
-          repudiandae et, omnis reiciendis nihil doloremque ex tempora
-          cupiditate magnam porro?
-        </p>
-      </div>
-    </section> -->
   <section class="contact" id="contact">
     <div class="contact-details">
       <h2>Contact Us</h2>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit
-        repudiandae et, omnis reiciendis nihil doloremque ex tempora
-        cupiditate magnam porro?
+        We are happy to clear your doubts and help you in your path to sustainablity. #SUSTAINABILITY GOALS
       </p>
       <div class="icons">
         <img src="icons/facebook.png" alt="" />
