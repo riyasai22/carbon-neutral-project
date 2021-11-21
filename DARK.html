@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="nice.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="footprint.png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+
+    <title>Carbon Neutral | A Sustainablity awareness initiative</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-wrapper flex">
+        <ul class="nav-elements flex">
+          <li class="nav-item">
+            <a href="home.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a href="carbon.html">CALCULATOR</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="aquaponics.html">AQUAPONICS</a>
+          </li> -->
+        </ul>
+        <div class="nav-logo">
+          <a href="home.html"><img src="image/logo.png" alt="logo" /></a>
+        </div>
+        <ul class="nav-elements flex">
+          <!-- <li class="nav-item">
+            <a href="products.html">PRODUCTS</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="#tech">TECHNOLOGY</a>
+          </li>
+          <li class="nav-item">
+            <a href="#sustainability">INFO</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact">CONTACT</a>
+          </li>
+        </ul>
+        <!-- <span class="toggle"><i class="fas fa-bars"></i></span> -->
+      </div>
+      <div class="nav-wrapper2">
+        <ul class="nav-elements2 flex">
+          <li class="nav-item">
+            <a href="home.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">ABOUT</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="aquaponics.html">AQUAPONICS</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a href="products.html">PRODUCTS</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="#sustainability">INFO</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="button">
+      <a href="HOME.html">
+        <i class="fas fa-sun"></i>
+      </a>
+    </div>
+    <div class="pic">
+      <div class="btn"><a href="#about">KNOW MORE</a></div>
+      <div class="knowmore" id="about"></div>
+      <span
+        class="material-icons audio1"
+        onclick="speakText(`Carbon neutrality is a state of net-zero carbon dioxide emissions. This can be achieved by balancing emissions of carbon dioxide with its removal or by eliminating emissions from society.`)"
+        type="button"
+        value="submit"
+      >
+        volume_up
+      </span>
+      <span
+        class="material-icons audio2"
+        onclick="speakText(`Reducing carbon emissions can be done by moving towards energy sources and industry processes that produce less greenhouse gases, thereby transitioning to a low-carbon economy. Shifting towards the use of renewable energy such as wind, geothermal, and solar power, as well as nuclear power reduces greenhouse gas emissions. Although both renewable and non-renewable energy production produce carbon emissions in some form, renewable sources produce negligible to almost zero carbon emissions. Transitioning to a low-carbon economy would also mean making changes to current industrial and agricultural processes to reduce carbon emissions, for example, diet changes to livestock such as cattle can potentially reduce methane production by 40%.`)"
+        type="button"
+        value="submit"
+      >
+        volume_up
+      </span>
+      <span
+        class="material-icons audio3"
+        onclick="speakText(`A carbon offset is a reduction in emissions of carbon dioxide or other greenhouse gases made in order to compensate for emissions made elsewhere. Offsets are measured in tonnes of carbon dioxide-equivalent (CO2e). One tonne of carbon offset represents the reduction of one tonne of carbon dioxide or its equivalent in other greenhouse gases.`)"
+        type="button"
+        value="submit"
+      >
+        volume_up
+      </span>
+      <div class="contact" id="contact"></div>
+      <div class="info" id="sustainability"></div>
+      <div class="calculate" id="calculate">
+        <a href="carbon.html">CALCULATE YOUR CARBON FOOTPRINT</a>
+      </div>
+    </div>
+
+    <script>
+      function speakText(text) {
+        responsiveVoice.speak(text);
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://code.responsivevoice.org/responsivevoice.js"
+    ></script>
+  </body>
+</html>
